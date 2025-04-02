@@ -22,6 +22,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("Application Started");
+  console.log("setting up antialiased values");
   return (
     <html lang="en">
       <body
